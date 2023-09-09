@@ -48,7 +48,7 @@ const PostScreen = () => {
 
   return (
     <View>
-      <View style={{flexDirection: 'row', marginTop: 15}}>
+      <View style={{flexDirection: 'row', marginTop: 15, marginBottom: 5}}>
         <TouchableOpacity
           onPress={() => setFocused(1)}
           style={[
