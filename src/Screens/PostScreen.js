@@ -76,7 +76,7 @@ const PostScreen = () => {
           <Octicon
             name="video"
             size={25}
-            color={focused === 1 ? 'white' : 'grey'}
+            color={focused === 2 ? 'white' : 'grey'}
           />
         </TouchableOpacity>
         <TouchableOpacity
@@ -91,7 +91,7 @@ const PostScreen = () => {
           <AntDesign
             name="save"
             size={25}
-            color={focused === 1 ? 'white' : 'grey'}
+            color={focused === 3 ? 'white' : 'grey'}
           />
         </TouchableOpacity>
         <TouchableOpacity
@@ -106,7 +106,7 @@ const PostScreen = () => {
           <AntDesign
             name="profile"
             size={25}
-            color={focused === 1 ? 'white' : 'grey'}
+            color={focused === 4 ? 'white' : 'grey'}
           />
         </TouchableOpacity>
       </View>
